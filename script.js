@@ -10,7 +10,7 @@ function reverseWords(arr) {
             start = i + 1;
         }
     }
-    reverse(arr, start, arr.length - 1);
+    reverse(arr, start, end);
     return arr;
 }
 
